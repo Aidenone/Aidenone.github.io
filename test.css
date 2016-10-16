@@ -7,23 +7,107 @@ body {
   margin: 0;
 }
 
+#test2 a{
+	text-decoration: none;
+	color: black;
+}
+
 #test {
 	width: 0;
 	height: 0;
+	margin-top: -18px;
 	float: right;
 	border-style: solid;
-	border-width: 0 50px 50px 0;
-	border-color: transparent #007bff transparent transparent;
-	transition: border-width 1s;
+	border-width: 0 0px 0px 0;
+	border-color: transparent #007bff66  transparent transparent;
+	transition: border-width 0.5s;
 }
+
+#test2 {
+	display: none;
+	position: relative;
+	top: 125px;
+	left: 111px;
+	width: 100px;
+	height: 22px;
+	padding-top: 2px;
+	text-align: center
+}
+#test2:before {
+	content: " ";
+	background-color: #007bffb3;
+	position: absolute;
+	top:0;
+	left:-10px;
+	right:-10px;
+	bottom:0;
+	z-index: -1;
+	transform: skewX(38deg);
+
+	-moz-box-shadow: 3px 3px 2px #656565;
+	-webkit-box-shadow: 3px 3px 2px #656565;
+	-o-box-shadow: 3px 3px 2px #656565;
+	box-shadow: 3px 3px 2px #656565;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#6565', Direction=135, Strength=5); 
+}
+
 
 #test.displayed {
 	border-style: solid;
-	border-width: 0 200px 300px 0;
+	border-width: 0 300px 400px 0;
+}
+
+
+.fa{
+	font-size: 28px !important;
+}
+
+.fa-bars{
+	transition: 2s;
+	float: right;
+	position: fixed;
+	top: 10px;
+	right: 12px;
+	z-index: 999;
+	transition: all 2s;
+	cursor: pointer;
+	color:  #00f9;
+}
+.fa-times{
+	transition: 2s;
+	float: right;
+	position: fixed;
+	top: 10px;
+	right: 12px;
+	z-index: 999;
+	transition: all 2s;
+	cursor: pointer;
+	color:  #00f9;
+}
+#test.sticky {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+#test-shadow {
+	width: 0;
+	height: 0;
+	float: right;
+	position: relative;
+	border-style: solid;
+	border-width: 0 55px 55px 0;
+	border-color: transparent gray transparent transparent;
+	transition: border-width 1s;
+}
+
+#test-shadow.displayed {
+	border-style: solid;
+	border-width: 0 205px 305px 0;
 	border-color: transparent #007bff transparent transparent;
 }
 
-#test.sticky {
+#test-shadow.sticky {
 	position: fixed;
 	top: 0;
 	right: 0;
