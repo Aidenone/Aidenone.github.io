@@ -1,16 +1,9 @@
 var $window = $(window),
-$stickyEl = $('#test'),
-$stickyEl2 = $('#test-shadow'),
+$stickyEl = $('.menu'),
 elTop = $stickyEl.offset().top;
 
 $window.scroll(function() {
     $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
-    $stickyEl.removeClass('displayed');
- 	$("#test2").css("display","none");
- 	if($(".menu-icon").hasClass('fa-times')){
- 		$(".menu-icon").addClass('fa-bars');
- 		$(".menu-icon").removeClass('fa-times');
- 	}
 });
 $(".menu-icon").click(function() {
   $stickyEl.toggleClass('displayed');

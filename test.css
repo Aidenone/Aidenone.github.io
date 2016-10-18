@@ -2,7 +2,6 @@ body {
   /*background:
     radial-gradient(#fff 3px, transparent 5px, #fff 7px, transparent 9px, #fff 11px, transparent 13px, #fff 15px, transparent 17px, #fff 19px, transparent 21px, #fff 23px, transparent 25px, #fff 27px, transparent 29px, #fff 31px, transparent 33px);
   background-color: #741818;*/
-  background-size: 30px 30px;
   height: 2555px;
   margin: 0;
 }
@@ -84,10 +83,11 @@ body {
 	cursor: pointer;
 	color:  #00f9;
 }
-#test.sticky {
+.sticky {
 	position: fixed;
+	width: 100%;
+	right: 15;
 	top: 0;
-	right: 0;
 }
 
 #test-shadow {
@@ -108,7 +108,34 @@ body {
 }
 
 #test-shadow.sticky {
-	position: fixed;
 	top: 0;
 	right: 0;
+}
+
+.photo{
+	background-color: orange;
+	height: 300px;
+}
+.adresse{
+	background-color: red;
+	height: 300px;
+}
+.coord{
+	box-shadow: 1px 2px 5px black;
+}
+.nav-elem1{
+	height: 60px;
+	border-bottom: solid 5px green;
+}
+.nav-elem2{
+	height: 60px;
+	border-bottom: solid 5px red;
+}
+.nav-elem3{
+	height: 60px;
+	border-bottom: solid 5px blue;
+}
+.nav-elem4{
+	height: 60px;
+	border-bottom: solid 5px yellow;
 }
