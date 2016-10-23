@@ -130,7 +130,6 @@ section {
 	background-color: #e3e3e3;
 	z-index: -999;
 	padding-top: 5px;
-	box-shadow: 2px 2px 2px gray;
 	margin-bottom: 50px;
 }
 #etudes div:nth-child(2){
@@ -145,16 +144,36 @@ section {
 #etudes div:nth-child(5){
 	border-bottom: solid 5px #e0e000;
 }
+#experiences div:nth-child(2){
+	border-bottom: solid 5px #d50000;
+}
+#experiences div:nth-child(3){
+	border-bottom: solid 5px #0000b6;
+}
+#competences div:nth-child(2){
+	border-bottom: solid 5px #d50000;
+}
+#competences div:nth-child(3){
+	border-bottom: solid 5px #0000b6;
+}
+#loisirs div:nth-child(2){
+	border-bottom: solid 5px #d50000;
+}
 #experiences{
 	display: inline-block;
 	width: 100%;
 	background-color: #e3e3e3;
 }
+#loisirs{
+	display: inline-block;
+	width: 100%;
+}
 .cat-exp{
+
+	display: inline-block;
 	padding-top: 15px;
 	height: 190px;
 	background-color: white;
-	box-shadow: 3px 3px 2px gray;
 	margin-bottom: 50px;
 	margin-top: 20px;
 }
@@ -163,6 +182,12 @@ section {
 	width: 100%;
 }
 .cat-comp{
+	height: 150px;
+	background-color: #e3e3e3;
+	z-index: -999;
+	padding-top: 5px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 #loisirs{
 	background-color: #e3e3e3;
@@ -174,10 +199,23 @@ section {
 	line-height: 28px;
 	text-align: center;
 }
-
+.contact{
+	color: white;
+	position: relative;
+	top: 28px;
+	left: 25px;
+}
+.cat-loisirs{
+		padding-top: 15px;
+	height: 200px;
+	background-color: white;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
 footer{
 	background-color: #6B1B1BE6;
 	height: 75px;
+	text-align: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -211,4 +249,13 @@ footer{
 		border-left: 0;
 		border-top: solid 2px #6B1B1BCC;
 	}
+	.cat-exp{
+	
+	display: inline-block;
+	padding-top: 15px;
+	height: 270px;
+	background-color: white;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
 }
