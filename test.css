@@ -76,16 +76,16 @@ hr {
 }
 .menu div a{
 	text-decoration: none;
-	color: #2f000f;
+	color: white;
 }
 .menu div:nth-child(3){
-	border-left: solid 2px rgb(95, 2, 31);;
+	border-left: solid 2px rgb(95, 2, 31);
 }
 .menu div:nth-child(4){
-	border-left: solid 2px rgb(95, 2, 31);;
+	border-left: solid 2px rgb(95, 2, 31);
 }
 .menu div:nth-child(5){
-	border-left: solid 2px rgb(95, 2, 31);;
+	border-left: solid 2px rgb(95, 2, 31);
 }
 .menu div:hover{
 	font-size: 18;
@@ -230,25 +230,25 @@ footer{
 	}
 	.menu-cont{
 		display: block;
-		color:#2f000f;
+		color:white;
 	}
 	.nav-elem{
 		display: none;
 	}
 	.menu div:nth-child(2){
-		border-top: solid 2px #6B1B1BCC;
+		border-top: solid 2px rgb(95, 2, 31);
 	}
 	.menu div:nth-child(3){
 		border-left: 0;
-		border-top: solid 2px #6B1B1BCC;
+		border-top: solid 2px rgb(95, 2, 31);
 	}
 	.menu div:nth-child(4){
 		border-left: 0;
-		border-top: solid 2px #6B1B1BCC;
+		border-top: solid 2px rgb(95, 2, 31);
 	}
 	.menu div:nth-child(5){
 		border-left: 0;
-		border-top: solid 2px #6B1B1BCC;
+		border-top: solid 2px rgb(95, 2, 31);
 	}
 	.cat-exp{
 	
