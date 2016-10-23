@@ -47,4 +47,4 @@ $(document).ready(function () {
   $(".menu-cont").click(function() {
     $(".nav-elem").toggle();
   });
-};
+});
