@@ -4,6 +4,7 @@ body {
   background-color: #741818;*/
   margin: 0;
   width: 100%;
+  font-family: 'Signika Negative', sans-serif!important;
 }
 section{
 	min-height: 300px;
@@ -49,7 +50,7 @@ hr {
 	font-size: 27.5px;
 	border-bottom: solid 5px white;
 	height: 50px;
-	width: 225px;
+	width: 205px;
 	margin: auto;
 }
 .statut{
