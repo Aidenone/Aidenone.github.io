@@ -33,7 +33,7 @@ hr {
 }
 
 .header{
-	background-color: #6B1B1BCC;
+	background-color: #5F021F;
 	height: 300px;
 }
 .header-cont{
@@ -71,21 +71,21 @@ hr {
 	text-align: center;
 	padding-top: 18px;
 	font-size: 13px;
-	background-color: #6B1B1BE6;
+	background-color: rgba(95, 2, 31, 0.91);
 	transition: 0.2s;
 }
 .menu div a{
 	text-decoration: none;
-	color: #DEABABB3;
+	color: #2f000f;
 }
 .menu div:nth-child(3){
-	border-left: solid 2px #6B1B1BCC;
+	border-left: solid 2px rgb(95, 2, 31);;
 }
 .menu div:nth-child(4){
-	border-left: solid 2px #6B1B1BCC;
+	border-left: solid 2px rgb(95, 2, 31);;
 }
 .menu div:nth-child(5){
-	border-left: solid 2px #6B1B1BCC;
+	border-left: solid 2px rgb(95, 2, 31);;
 }
 .menu div:hover{
 	font-size: 18;
@@ -201,9 +201,9 @@ section {
 }
 .contact{
 	color: white;
-	position: relative;
-	top: 28px;
-	left: 25px;
+	text-align: center;
+	padding-top: 28px;
+	font-size: 22px;
 }
 .cat-loisirs{
 		padding-top: 15px;
@@ -213,8 +213,8 @@ section {
 	margin-top: 20px;
 }
 footer{
-	background-color: #6B1B1BE6;
-	height: 75px;
+	background-color: #5F021F;
+	height: 105px;
 	text-align: center;
 }
 
@@ -230,6 +230,7 @@ footer{
 	}
 	.menu-cont{
 		display: block;
+		color:#2f000f;
 	}
 	.nav-elem{
 		display: none;
@@ -261,7 +262,6 @@ footer{
 @media screen and (max-width: 700px) {
 
 	.cat-exp{
-	
 	display: inline-block;
 	padding-top: 15px;
 	height: 371px;
