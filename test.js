@@ -17,3 +17,32 @@ $(".menu-icon").click(function() {
   }
   //nav.displayed;
 });
+
+var statut = "Développeur WEB";
+var i = 0;
+var ecrit = function(){
+  $(".statut").append(statut[i])
+  i++;
+};
+setInterval(ecrit,150);
+
+var signe = -1;
+var clignotement = function(){
+  var obj = document.getElementById('type-bar');
+  if(obj.style.opacity >= 0.96) {
+    signe = -1
+  }
+  if(obj.style.opacity <= 0.04) {
+    signe = 1
+  }
+  obj.style.opacity = (obj.style.opacity * 1) + (signe * 0.04);
+};
+periode = setInterval(clignotement, 20);
+
+if (window.matchMedia("(max-width: 911px)").matches) {
+  console.log('petit');
+}
+
+$(".menu-cont").click(function() {
+  $(".nav-elem").toggle();
+});
