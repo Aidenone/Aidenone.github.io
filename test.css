@@ -10,6 +10,7 @@ section{
 }
 .sticky{
 	position: fixed;
+	z-index: 999;
 	top: 0;
 	right: 0;
 	left: 0;
@@ -94,6 +95,7 @@ section {
 }
 .nav-elem{
 	display: block;
+	z-index: 999;
 }
 .a-propos{
 	text-align: center;
@@ -116,6 +118,7 @@ section {
 .cat-et{
 	height: 150px;
 	background-color: #e3e3e3;
+	z-index: -999;
 	box-shadow: 2px 2px 2px gray;
 	margin-bottom: 50px;
 }
