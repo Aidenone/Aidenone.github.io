@@ -17,13 +17,51 @@
 		padding-right: 15px;
 	}
 
+	.container {
+		text-align: center;
+	}
+
+	#generate {
+		padding: 5px 15px;
+		margin: 3px 4px;
+		display: inline-block;
+		color: #ffffff;
+		font-size: 26px;
+		cursor: pointer;
+		background: #FF00D1;
+		background: linear-gradient(top, #FF00D1 0%, #e600b8 100%);
+		background: -moz-linear-gradient(top, #FF00D1 0%, #e600b8 100%);
+		background: -webkit-linear-gradient(top, #FF00D1 0%, #e600b8 100%);
+		background: -o-linear-gradient(top, #FF00D1 0%, #e600b8 100%);
+		border: 1px solid #000000;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-o-border-radius: 5px;
+		box-shadow:0px 0px 16px 8px rgba(0, 0, 0, 1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+		-moz-box-shadow:0px 0px 16px 8px rgba(0, 0, 0, 1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+		-webkit-box-shadow:0px 0px 16px 8px rgba(0, 0, 0, 1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+		-o-box-shadow:0px 0px 16px 8px rgba(0, 0, 0, 1), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.25);
+		text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.50);
+	}
+	#generate:hover {
+		background: linear-gradient(top, #ff1aeb 0%, #FF00D1 100%);
+		background: -moz-linear-gradient(top, #ff1aeb 0%, #FF00D1 100%);
+		background: -webkit-linear-gradient(top, #ff1aeb 0%, #FF00D1 100%);
+		background: -o-linear-gradient(top, #ff1aeb 0%, #FF00D1 100%);
+	}
 </style>
 
-<button id="generate">Générez le surnom de qualité</button>
+<div class="container">
+	<img src="logo.png"><br>
 
-<div class="fullname">
-	<div id="prenom"></div>  <div id="nom"></div>
+	<button id="generate">Générez le surnom de qualité</button>
+
+	<div class="fullname">
+		<div id="prenom"></div>  <div id="nom"></div>
+	</div>
 </div>
+
 
 <script type="text/javascript">
 
