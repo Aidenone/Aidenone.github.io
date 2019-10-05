@@ -5,13 +5,69 @@
 </head>
 <body>
 
+<style type="text/css">
+	
+	.fullname {
+		font-size: 4em;
+		display: flex;
+		justify-content: center;
+	}
+
+	.fullname div {
+		padding-right: 15px;
+	}
+
+</style>
 
 <button id="generate">Générez le surnom de qualité</button>
 
+<div class="fullname">
+	<div id="prenom"></div>  <div id="nom"></div>
+</div>
+
 <script type="text/javascript">
-	getElementById("generate").onclick({
-		console.log("oui");
-	});
+
+	function getRandomInt(max) {
+		return Math.floor(Math.random() * Math.floor(max));
+	}
+
+	var agrumes = [
+		'Citron', 
+		'Orange',
+		'Bergamote',
+		'Bigaradier',
+		'Calamondin',
+		'Cédrat',
+		'Clémentine',
+		'Combava',
+		'Kabosu',
+		'Kumquat',
+		'Lime',
+		'Limette',
+		'Mandarine',
+		'Mineola',
+		'Pamplemousse',
+		'Pomelo',
+		'Sudachi',
+		'Tangelo',
+		'Tangerine',
+		'Tangor',
+	];
+	var ciments = [
+		'Ciment', 
+		'Béton', 
+		'Egrugeoir',
+		'Bauge',
+		'Crapouillot',
+		'Torchis',
+		'Bousillage'
+	];
+
+	document.getElementById("generate").onclick = function(){
+		console.log("test");
+		document.getElementById("prenom").innerHTML = agrumes[getRandomInt(20)];
+		document.getElementById("nom").innerHTML = ciments[getRandomInt(5)];
+	};
 </script>
 
 
