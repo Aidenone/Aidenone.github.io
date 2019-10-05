@@ -4,12 +4,13 @@
 	<title>klémentin Générator</title>
 	 <link href="http://fr.allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
 </head>
-<body>
+<body style="background-image: url('klementin.png'); background-size: 100px; margin: 0;">
 
 <style type="text/css">
 	
 	.fullname {
-		font-size: 4em;
+		color: red;
+		font-size: 5em;
 		display: flex;
 		justify-content: center;
 		font-family: 'Comic Sans MS', arial;
@@ -17,6 +18,7 @@
 
 	.fullname div {
 		padding-right: 15px;
+		text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 	}
 
 	.container {
@@ -55,7 +57,7 @@
 </style>
 
 <div class="container">
-	<img src="logo2.png"><br>
+	<div style="width: 100vw; background-color: white;"><img src="logo2.png"></div><br>
 
 	<button id="generate">Générez le surnom de qualité</button>
 
